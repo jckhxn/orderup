@@ -1,9 +1,9 @@
 OrderUp!
 # TODO
-* Persist data after after sent/received to localstorage.
+
+
 * Scrape api restaurant data to serve.
-So technically.. you can get the best data from DoorDash.
-(See URLS.md)
+
 App for group ordering
 Invite Code
 (Only allow from IP/localhost?)

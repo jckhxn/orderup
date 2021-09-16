@@ -16,8 +16,9 @@ io.on("connection", (socket) => {
     // Needs to grab room ID to be specfic
 
     // Sends to specific room ID.
-    const client = socket.id;
-    io.in(roomID).emit("receive", message);
+    const clientID = socket.id;
+    io.in(roomID).emit("receive", message,clientID);
+  
   });
 
   socket.on("join_room", (room) => {
